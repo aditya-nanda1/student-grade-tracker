@@ -1,16 +1,61 @@
-# React + Vite
+# 📌 Student Grade Tracker  
+### Built by **Aditya Nanda**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic Student Grade Tracker application built using **React class-based components** and **React lifecycle methods**. This project allows users to manage student records, update grades, and track pass/fail status with real-time UI updates.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://student-grade-tracker-psi.vercel.app/  
+🔗 **Source Code:** https://github.com/aditya-nanda1/student-grade-tracker.git  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
+This project is focused on mastering **class-based components in React** and understanding how lifecycle methods work in real applications. It demonstrates state management using `this.state`, UI updates using `setState()`, and dynamic rendering through user interaction.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎓 Core Functionality
+- Add new students using a form  
+- Display student name, grade, and pass/fail status  
+- Update student grades dynamically  
+- Remove students from the list  
+- Mark students as **Passed** or **Failed**  
+- Validation to ensure grades are between 0 and 100  
+- Highlight passed students in green and failed students in red  
+- Filter students (example: show only passed students)  
+- Sort students based on grades  
+
+---
+
+### ⚙️ Lifecycle & State Management
+- Load initial student data using `componentDidMount()`  
+- Handle updates using `componentDidUpdate()`  
+- Cleanup handled using `componentWillUnmount()`  
+- Full state management using `this.state` and `setState()`  
+- Controlled form inputs with proper validation  
+
+---
+
+## 🛠️ Tech Stack
+- **React (Class-Based Components)**
+- **React Lifecycle Methods**
+- **JavaScript (ES6+)**
+- **CSS**
+- **Vercel** for deployment
+
+---
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/aditya-nanda1/student-grade-tracker.git
+cd student-grade-tracker
+npm install
+npm start
+```
+
+---
+
+## 🧑‍💻 Author  
+**Aditya Nanda**
